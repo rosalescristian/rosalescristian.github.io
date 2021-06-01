@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-with">
+        <script src="https://kit.fontawesome.com/455913f30d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../styles/style.css">
+        <title>Chandler Consulting</title>
+    </head>
+
+    <body>
+        <header> 
+            <!--<br>-->
+            <nav>
+                <a class="nav" href="../index.html">Home</a>
+                <a class="nav" href="..docs/sucursales.html">Sucursales</a>
+                <a class="nav" href="..docs/registro.html">Registro</a>
+                <a class="nav" href="..docs/contact.html">Contacto</a>
+                <a class="nav" href="..docs/about.html">Acerca de</a> 
+            </nav>     
+            <br>   
+            <h1>Chandler Consulting</h1>
+            <br>
+        </header>
+
+        <h2>Registro clientes</h2>
+        <p>Dejanos tus datos de contacto para que un representante se comunique con vos</p>
+        <form action="show_data.html" target="_blank">
+            <fieldset>
+                <legend>Datos personales</legend>
+                    <label for="fname">Nombre:</label> <input type="text" id="fname" name="fname" placeholder="Nombre" autocomplete="on"><br>
+                    <label for="lname">Apellido:</label> <input type="text" id="lname" name="lname" placeholder="Apellido" autocomplete="on"><br>
+                    <label for="age">Edad:</label> <input type="age" id="age" name="age" placeholder="Edad" autocomplete="on"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                    <label for="phone">Teléfono de contacto:</label> <input type="phone" id="phone" name="phone" placeholder="Telefono" autocomplete="on"><br>
+                    <label for="email">Mail de contacto:</label> <input type="email" id="email" name="email" placeholder="Email" autocomplete="on"><br>
+                
+                </fieldset>
+            <fieldset>
+                <legend>Sexo</legend>
+                    <input type="radio" id="male" name="gender" value="male"> <label for="male">Masculino</label><br>
+                    <input type="radio" id="female" name="gender" value="female"> <label for="female">Femenino</label><br>
+                    <input type="radio" id="other" name="gender" value="other"> <label for="other">Otro</label><br>
+            </fieldset>        
+            <fieldset>
+                <legend>Describinos tu necesidad</legend>
+                    <input type="checkbox" id="necesity1" name="necesity1" value="Tesis"> <label for="necesity1"> Necesito terminar mi tesis</label><br>
+                    <input type="checkbox" id="necesity2" name="necesity2" value="Bussines"> <label for="necesity2"> Soy una PyME que necesita análisis de datos</label><br>
+                    <input type="checkbox" id="necesity3" name="necesity3" value="Bussines2"> <label for="necesity3"> Soy una Empresa que quiere contratarlos</label><br><br>
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+
+
+    </body>
+    <footer>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
+        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram-square fa-2x"></i></a>
+        <a href="https://www.youtube.com"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="https://www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+        <p>Copyright © 2020</p>
+    </footer>
+
+</html>
