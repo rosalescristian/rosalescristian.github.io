@@ -40,6 +40,8 @@ p{
 }
 section{
     float:left;
+    /*flex-direction: row;
+    justify-content:flex-end;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 200px;
 }
