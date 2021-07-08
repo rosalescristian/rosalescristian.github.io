@@ -31,6 +31,10 @@ html {
     font-size: 1.125rem;
 }
 
+body {
+    margin: 0;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -97,5 +101,11 @@ nav a:hover, nav a:focus {
 
 /* Home Page Style */
 
-
+.hero {
+    background-color: #333;
+    background-image: url(../images/word_cloud.jpeg);
+    background-blend-mode: multiply;
+    color: white;
+    text-align: center;
+}
 
