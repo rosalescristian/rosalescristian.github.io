@@ -64,6 +64,10 @@ p {
     margin-bottom: 0.85em;
 }
 
+.section-title-small {
+    font-size: 3rem;
+}
+
 /*.text-primary {} --> NO USO ESTA VARIABLE PORQUE NO USE SPAN EN EL HTML*/
 
 .logo {
@@ -120,6 +124,11 @@ nav a:hover, nav a:focus {
 
 .intro {
     text-align: center;
+}
+
+.about-us {
+    background: var(--clr-accent);
+    
 }
 
 
