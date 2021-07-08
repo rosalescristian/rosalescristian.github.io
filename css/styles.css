@@ -132,6 +132,10 @@ nav a:hover, nav a:focus {
     display: flex;
     flex-direction: column;
     color: white;
+    padding: 0;
 }
 
-
+.about-us__intro {
+    background-image: url(../images/word_cloud.jpeg);
+    padding: 3em 1em;
+}
