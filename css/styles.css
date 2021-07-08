@@ -9,12 +9,13 @@ FONTS
 }
 
 :root {
-    --clr-text: #5a5a5a;
+    --clr-text: #3d3d3d;
     --clr-primary: #067e0a;
     --clr-accent:#764981;
 
     --ff-title: "Geneva", sans-serif;
     --ff-sans: "Verdana", sans-serif;
+    --ff-logo: "Tahoma", serif;
 }
 
 *,
@@ -27,5 +28,6 @@ html {
     box-sizing: border-box;
     font-family: var(--ff-sans);
     color: var(--clr-text);
+    font-size: 1.125rem;
 }
 
