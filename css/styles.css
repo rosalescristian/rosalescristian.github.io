@@ -2,8 +2,19 @@
 FONTS
 *****/
 @font-face {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
     src: url();
+}
+
+:root {
+    --clr-text: #5a5a5a;
+    --clr-primary: #067e0a;
+    --clr-accent:#764981;
+
+    --ff-title: "Geneva", sans-serif;
+    --ff-sans: "Verdana", sans-serif;
 }
 
 *,
@@ -14,5 +25,7 @@ FONTS
 
 html {
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--ff-sans);
+    color: var(--clr-text);
 }
+
