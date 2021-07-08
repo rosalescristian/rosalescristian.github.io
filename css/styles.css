@@ -11,7 +11,7 @@ FONTS
 :root {
     --clr-text: #3d3d3d;
     --clr-primary: #067e0a;
-    --clr-accent:#764981;
+    --clr-accent:#613b6b;
 
     --ff-title: "Geneva", sans-serif;
     --ff-sans: "Verdana", sans-serif;
@@ -54,6 +54,7 @@ h1, h2, h3, h4, p {
 h2, h3 {
     font-family: var(--ff-title);
     line-height: 0.8;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -128,7 +129,9 @@ nav a:hover, nav a:focus {
 
 .about-us {
     background: var(--clr-accent);
-    
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
 
 
