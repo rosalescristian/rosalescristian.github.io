@@ -82,7 +82,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 nav a {
@@ -109,6 +109,6 @@ nav a:hover, nav a:focus {
     background-size: cover;
     color: white;
     text-align: center;
-    padding: 15vh 0;
+    padding: 15vh 1em;
 }
 
