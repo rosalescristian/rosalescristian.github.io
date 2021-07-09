@@ -33,6 +33,7 @@ html {
 
 body {
     margin: 0;
+    text-align: center;
 }
 
 img {
@@ -67,6 +68,12 @@ p {
 
 .section-title-small {
     font-size: 3rem;
+}
+
+.section-title-small small{
+    font-size: 0.7em;
+    /*line-height: 0.7;*/
+    display: block;
 }
 
 /*.text-primary {} --> NO USO ESTA VARIABLE PORQUE NO USE SPAN EN EL HTML*/
@@ -137,5 +144,9 @@ nav a:hover, nav a:focus {
 
 .about-us__intro {
     background-image: url(../images/word_cloud.jpeg);
-    padding: 3em 1em;
+    padding: 3em 1em 1.5em;
+}
+
+.about-us__body {
+    padding: 1.5em 1em 3em;
 }
