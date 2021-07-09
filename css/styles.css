@@ -11,7 +11,9 @@ FONTS
 :root {
     --clr-text: #3d3d3d;
     --clr-primary: #067e0a;
+    --clr-primary-dark: #125814;
     --clr-accent:#613b6b;
+    --clr-accent-dark:#44264d;
 
     --ff-title: "Geneva", sans-serif;
     --ff-sans: "Verdana", sans-serif;
@@ -43,6 +45,10 @@ img {
 
 section {
     padding: 3em 1em;
+}
+
+.mb-0 {
+    margin-bottom: 0;
 }
 
 /* Typography */
@@ -137,6 +143,21 @@ nav a:hover, nav a:focus {
     background: var(--clr-primary);
 }
 
+.btn-primary:hover,
+.btn-primary:focus {
+    background: var(--clr-primary-dark);
+}
+
+.btn-accent {
+    background: var(--clr-accent);
+}
+
+.btn-accent:hover,
+.btn-accent:focus {
+    background: var(--clr-accent-dark);
+}
+
+
 /* Home Page Style */
 
 .hero {
@@ -201,3 +222,41 @@ nav a:hover, nav a:focus {
 
 /* .fineprint {} --> no uso esta clase tampoco */
 
+
+
+footer {
+    background: #333;
+    padding: 3em 1em;
+    color: white;
+    display: flex;
+}
+
+footer a {
+    color: inherit;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-nav a {
+    padding: 0.75em;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    list-style: none;
+}
+
+/* .social-icon {} --> NO USO ESTA CLASE*/
+
+.social-link {
+    padding: 0.25em;
+}
