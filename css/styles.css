@@ -130,6 +130,7 @@ nav a:hover, nav a:focus {
     text-decoration: none;
     display: inline-block;
     margin: 0.5em 0;
+    border-radius: 0.35em;
 }
 
 .btn-primary {
@@ -169,4 +170,34 @@ nav a:hover, nav a:focus {
 .about-us__body {
     padding: 1.5em 1em 3em;
 }
+
+.order_online {
+    background: f0f0f0;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product {
+    /*background: f0f0f0;*/
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+    
+}
+
+.product__content {
+    padding: 1.5em;
+}
+
+.product__title {
+    color: var(--clr-primary);
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+/* .fineprint {} --> no uso esta clase tampoco */
 
